@@ -1,6 +1,5 @@
 #include "common.h"
 #include "Unit.h"
-#include "Unit.cpp"
 
 
 int main()
