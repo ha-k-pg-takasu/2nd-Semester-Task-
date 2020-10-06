@@ -7,7 +7,10 @@ public:
 	Unit();
 	//デストラクタ
 	~Unit();
+	//ステータス表示
+	void Printstatus();
 
+private:
 	int m_hp;
 	int m_str;
 	int m_mag;
