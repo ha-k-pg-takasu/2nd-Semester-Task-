@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5510836a-8518-4c44-9531-8537208b30c6}</ProjectGuid>
-    <RootNamespace>classpractic</RootNamespace>
+    <ProjectGuid>{95728c82-639d-4a68-a1bd-f4914f0bc271}</ProjectGuid>
+    <RootNamespace>practice03iterator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>practice02_03_iterator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,13 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="classpractic.cpp" />
-    <ClCompile Include="Unit.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="common.h" />
-    <ClInclude Include="Definition.h" />
-    <ClInclude Include="Unit.h" />
+    <ClCompile Include="practice02_03_iterator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
